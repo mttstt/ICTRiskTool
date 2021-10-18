@@ -21,14 +21,14 @@ services:
     ports:
      - "80:80"
     environment:
-     - MONGO_URL=mongodb://mongo/audittool
+     - MONGO_URL=mongodb://mongo/ictrisktool
      - ROOT_URL=http://127.0.0.1
      - DELAY=5
      - passwdAD
     volumes:
-     - audittool:/tmp/files/lib
+     - ictrisktool:/tmp/files/lib
 
 volumes:
    jsreport:
-   audittool:
+   ictrisktool:
    mongo:

@@ -1,3 +1,12 @@
+### 0.0.17 (18-10-2021)
+##### Code
+* Upgrade to Meteor-files package
+##### Enhanced features
+* From Audittool to IctRiskTool
+##### Enhanced Docker
+* Upgrade to (abernix/meteord:node-12.20.0-onbuild)
+
+
 ### 0.0.16 (23-07-2019)
 ##### Code
 * Fixed bug (attach files to the first creation of a test)
@@ -29,7 +38,7 @@
 * Deleted CKEditor4 from the github project
 * Reordered Github directories
 ##### Docker
-* Upgraded docker (abernix/meteord node-8.14.0-onbuild) 
+* Upgraded docker (abernix/meteord node-8.14.0-onbuild)
 
 
 ### 0.0.12 (19-11-2018)
@@ -59,7 +68,7 @@
 * Added "themeteorchef:bert" package
 * Added "check" package
 * Removed "csv-parser" package
- 
+
 
 ### 0.0.9 (16-10-2018)
 ##### New features
@@ -74,7 +83,7 @@
 * Removed "dburles:mongo-collection-instances" package
 * Added "perak:c3" package
 * Added "random" package
-* Reviewed Access rights of collection Activies 
+* Reviewed Access rights of collection Activies
 * Integration with MK (delete some import from externals file)
 * Integration with Meteor users and added the new group: Auditors
 * Upgraded of jsreport
@@ -118,7 +127,7 @@
 
 ### 0.0.3 (15-06-2017)
 ##### New Features
-* PDF: Introduced skip Init phase creation new element 
+* PDF: Introduced skip Init phase creation new element
 * Added Library Element
 
 

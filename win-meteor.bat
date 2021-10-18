@@ -1,15 +1,15 @@
 SET dir1=%~dp0
-del /Q %dir1%AuditTool.json
+del /Q %dir1%ICTRiskTool.json
 
-curl https://www.meteorkitchen.com/api/getapp/json/Tqq4JcxsuGEBZrben  -o %dir1%AuditTool.json
+curl http://www.meteorkitchen.com/api/getapp/json/8R7NFyfzjb7Xt4EBL  -o %dir1%ICTRiskTool.json
 
-rmdir AuditTool /S /Q
+rmdir ICTRiskTool /S /Q
 mkdir emptyfolder
-robocopy emptyfolder AuditTool /purge
+robocopy emptyfolder ICTRiskTool /purge
 rmdir emptyfolder
-rmdir AuditTool
+rmdir ICTRiskTool
 
-meteor-kitchen ./AuditTool.json ./AuditTool
+meteor-kitchen ./ICTRiskTool.json ./ICTRiskTool
 
-cd ./AuditTool
+cd ./ICTRiskTool
 meteor --port 3000

@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Use: lin-docker.sh [command] [Password] [Docker-Hub release]
-# Put AuditTool in a Docker architecture
+# Put ICTRiskTool in a Docker architecture
 #
 #./lin-docker.sh -u [Password Active Directory] [Docker-Hub release]
 #./lin-dcoker.sh -b [Docker-Hub release]
@@ -12,8 +12,8 @@
 #
 # -h, --help        Help
 # -m, --meteor      Launch meteor, without Docker, for testing [Password Active Directory]
-# -b, --build       Build audittool docker image [New Docker-Hub release]
-# -p, --push        Push audittool image to Docker Hub [Password Docker Hub] [Docker release]
+# -b, --build       Build ICTRiskTool docker image [New Docker-Hub release]
+# -p, --push        Push ICTRiskTool image to Docker Hub [Password Docker Hub] [Docker release]
 # -u, --dockerup    Docker-compose up [Password Active Directory] [Docker release]
 # -d, --delete      Delete all (containers, images, volumes, networks)
 # -s, --stop	    docker-compose stop, useful when containers are started like service/ademon
@@ -123,7 +123,7 @@ case $key in
     *)    # unknown option
 
         echo "Use: lin-docker.sh [command] [Password] [Docker HUB release]"
-        echo "Put AuditTool in a Docker architecture"
+        echo "Put ICTRiskTool in a Docker architecture"
         echo ""
         echo "./lin-docker.sh -u [Password Active Directory] [Docker-Hub release]"
         echo "./lin-dcoker.sh -b [New Docker-Hub release]"
@@ -133,11 +133,11 @@ case $key in
         echo ""
         echo "-h, --help        Help"
         echo "-m, --meteor      Launch meteor, without Docker (for testing) [Password Active Directory]"
-        echo "-b, --build       Build audittool docker image [New Docker-Hub release]"
-        echo "-p, --push        Push audittool image to Docker Hub [Password Docker Hub] [Docker-Hub release]"
+        echo "-b, --build       Build ICTRiskTool docker image [New Docker-Hub release]"
+        echo "-p, --push        Push ICTRiskTool image to Docker Hub [Password Docker Hub] [Docker-Hub release]"
         echo "-u, --dockerup    Docker-compose up [Password Active Directory] [DockerHub release]"
         echo "-d, --delete      Delete all (containers, images, volumes, networks)"
-        echo "-s, --stop        Stop Audittol container daemon"
+        echo "-s, --stop        Stop ICTRiskTool container daemon"
 
     shift # past argument# Options:
     ;;
