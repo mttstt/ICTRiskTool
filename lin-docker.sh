@@ -82,7 +82,7 @@ case $key in
         fi
         rm -rf .git
         rm -fR ICTRiskTool
-        wget http://www.meteorkitchen.com/api/getapp/json/8R7NFyfzjb7Xt4EBL -O AuditTool.json
+        wget http://www.meteorkitchen.com/api/getapp/json/8R7NFyfzjb7Xt4EBL -O ICTRiskTool.json
         meteor-kitchen ICTRiskTool.json ICTRiskTool
         cd ICTRiskTool
         meteor
